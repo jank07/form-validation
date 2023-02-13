@@ -4,6 +4,7 @@ const passwordInput = document.querySelector('#password');
 const emailInput = document.querySelector('#email');
 const passwordInput2 = document.querySelector('#password2');
 const error = document.querySelectorAll('.error');
+const geniusz = 3;
 
 form.addEventListener('submit', e => {
     e.preventDefault();
